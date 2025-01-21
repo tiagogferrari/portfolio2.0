@@ -5,9 +5,9 @@ import "../app/globals.css"
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-4 bg-white text-black dark:bg-black dark:text-white">
+    <nav className="flex justify-between items-center p-4 bg-white text-black dark:bg-black dark:text-white fixed w-full z-10">
       {/* Nome da aplicação */}
-      <h1 className="text-lg font-bold">Ferrari Dev</h1>
+      <h1 className="text-lg font-bold">&lt;Ferrari.Dev/&gt;</h1>
       
       {/* Links de navegação */}
       <ul className="flex space-x-4">
@@ -15,7 +15,7 @@ export default function Navbar() {
           <Link href="/" className="text-black dark:text-white hover:text-gray-500 dark:hover:text-gray-400">Home</Link>
         </li>
         <li>
-          <Link href="/about" className="text-black dark:text-white hover:text-gray-500 dark:hover:text-gray-400">About</Link>
+          <Link href="/about" className="text-black dark:text-white hover:text-gray-500 dark:hover:text-gray-400">About me</Link>
         </li>
         <li>
           <Link href="/projects" className="text-black dark:text-white hover:text-gray-500 dark:hover:text-gray-400">Projects</Link>
